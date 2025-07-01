@@ -1,16 +1,16 @@
-✨ Brief Idea
+Introdcution
 This is a custom blockchain implementation project aimed at understanding blockchains. 
 It has a native cryptocurrency with miners and the transactions are stored in Merkle Tree.
 The blockchain is Proof of Work based on simulated miner block sealing and block reward system.
 
-🧩 Components
+Components
 Block: Stores hash, Merkle root, transactions, and nonce
 Blockchain: List-like structure maintaining the block sequence
 MerkleTree: Generates Merkle root from hashed transactions
 Miner Selection: Picks the miner with highest BSS = competence_score * BHS
 Nonce Finder: Computes a nonce such that the hash ends in '0' (simulates PoW)
 
-🔍 How it Works
+How it Works
 Create Accounts with user-defined balances
 Input Transactions and filter based on balances and incentives
 Group Valid Transactions (up to 4 per block)
