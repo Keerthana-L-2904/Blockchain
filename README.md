@@ -1,4 +1,4 @@
-## Introdcution:
+## Introduction:
 - **This is a custom blockchain implementation project aimed at understanding blockchains.** 
 - **It has a native cryptocurrency with miners and the transactions are stored in Merkle Tree.**
 - **The blockchain is Proof of Work based on simulated miner block sealing and block reward system.**
